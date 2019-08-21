@@ -427,9 +427,9 @@ if __name__ == "__main__":
     drug_disease_matrix = np.loadtxt('../data/drugDiseaseInteraction.txt', delimiter='\t', dtype=int)
     drug_protein_matrix = np.loadtxt('../data/drugProteinInteraction.txt', delimiter='\t', dtype=int)
     disease_protein_matrix = np.loadtxt('../data/diseaseProteinInteraction.txt', delimiter='\t', dtype=int)
-    drug_similarity_matrix = np.loadtxt('../data/drugSimilarity.txt', delimiter='\t', dtype=float)
-    protein_similarity_matrix = np.loadtxt('../data/proteinSimilarity.txt', delimiter='\t', dtype=float)
-    disease_similarity_matrix = np.loadtxt('../data/diseaseSimilarity.txt', delimiter='\t', dtype=float)
+    # drug_similarity_matrix = np.loadtxt('../data/drugSimilarity.txt', delimiter='\t', dtype=float)
+    # protein_similarity_matrix = np.loadtxt('../data/proteinSimilarity.txt', delimiter='\t', dtype=float)
+    # disease_similarity_matrix = np.loadtxt('../data/diseaseSimilarity.txt', delimiter='\t', dtype=float)
 
     print("Below are the performances of each base classifier and the final ensemble classifier EMP-SVD:")
     print("meta-path-1:drug->disease")
